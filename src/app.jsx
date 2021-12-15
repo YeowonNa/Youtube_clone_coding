@@ -12,7 +12,7 @@ function App() {
     };
 
     fetch(
-      `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResult=25&q=${query}&type=video&key=AIzaSyABcq00Z8ynH9WFEg_41RnL8YCw5X-4-CQ`,
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${query}&type=video&key=AIzaSyABcq00Z8ynH9WFEg_41RnL8YCw5X-4-CQ`,
       requestOptions
     )
       .then((response) => response.json())
