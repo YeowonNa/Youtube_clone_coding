@@ -1,3 +1,6 @@
+.detail {
+  padding-top: 0.25em;
+}
 .description {
   white-space: pre-wrap;
 }
